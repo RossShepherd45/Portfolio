@@ -1,0 +1,257 @@
+@font-face{
+    font-family: "share tech";
+    src: url("/fonts/ShareTech-Regular.ttf");
+}
+
+/* Home Page */
+
+.container-1, .container-2, .container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "share tech";
+}
+
+.welcome-heading, .welcome-message, .about-heading, .about-message {
+    text-align: center;
+    color: #F0F6FC;
+}
+
+.welcome-heading, .about-heading {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.welcome-message, .about-message {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.welcome-heading, .welcome-message {
+    margin: 0;
+    padding: 5px;
+}
+
+.about-heading, .about-message{
+    margin: 0px;
+    padding: 5px;
+}
+
+.welcome-message {
+    margin-bottom: 35px;
+}
+
+.homepage-heading {
+    text-align: center;
+    font-size: 50px;
+    color: #F0F6FC;
+    border-bottom: 2px dotted #F0F6FC;
+    padding-bottom: 30px;
+    width: 100%;
+    font-family: "share tech";
+}
+.to-resume {
+    margin-top: 35px;
+}
+
+/* Resume Page */
+
+.resume-heading {
+    text-align: center;
+    font-size: 50px;
+    color: #F0F6FC;
+    border-bottom: 2px dotted #F0F6FC;
+    padding-bottom: 30px;
+    width: 100%;
+    font-family: "share tech";
+}
+
+.contact-heading, .education-heading, .work-heading, .interest-heading {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.container-4, .container-5, .container-6, .container-7, .container-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "share tech";
+}
+
+.contact-heading, .contact-message, .education-heading, .education-message, .work-heading, .work-message, .interest-heading, .interest-message {
+    color: #F0F6FC;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.contact-message, .education-message, .work-message, .interest-message{
+    font-size: 18px;
+}
+
+ul {
+    list-style-position: inside;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Samples */
+
+.samples-container1, .samples-container2, .samples-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px; 
+}
+
+.container-9, .container-10, .container-11, .container-12, .container-13, .container-14 {
+    flex: 1; 
+    max-width: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "share tech";
+}
+
+.samples-heading {
+    text-align: center;
+    font-size: 50px;
+    color: #F0F6FC;
+    border-bottom: 2px dotted #F0F6FC;
+    padding-bottom: 30px;
+    width: 100%;
+    font-family: "share tech";
+}
+
+.sample-1-heading, .sample-2-heading, .sample-3-heading, .sample-4-heading, .sample-5-heading, .sample-6-heading{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.sample-1-heading, .sample-1-message, .sample-2-heading, .sample-2-message, .sample-3-heading, .sample-3-message, .sample-4-heading, .sample-4-message, .sample-5-heading, .sample-5-message, .sample-6-heading, .sample-6-message {
+    color: #F0F6FC;
+    margin: 0;
+    padding: 5px;
+}
+
+.sample-1-message, .sample-2-message, .sample-3-message, .sample-4-message, .sample-5-message, .sample-6-message{
+    max-width: 250px;
+}
+
+@media (max-width: 800px) {
+    .samples-heading {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .container-9, .container-10, .container-11, .container-12, .container-13, .container-14 {
+        max-width: 100%;
+    }
+
+    .sample-1-message, .sample-2-message, .sample-3-message, .sample-4-message, .sample-5-message, .sample-6-message {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .samples-heading {
+        font-size: 30px;
+    }
+    
+    .sample-1-heading, .sample-2-heading, .sample-3-heading, .sample-4-heading, .sample-5-heading, .sample-6-heading {
+        font-size: 20px;
+    }
+
+    .samples-container1, .samples-container2, .samples-container3 {
+        flex-direction: column;
+    }
+
+    .sample-1-message, .sample-2-message, .sample-3-message, .sample-4-message, .sample-5-message, .sample-6-message {
+        padding: 10px;
+    }
+}
+
+
+/* Other Samples */
+
+.other-samples-heading {
+    text-align: center;
+    font-size: 50px;
+    color: #F0F6FC;
+    border-bottom: 2px dotted #F0F6FC;
+    padding-bottom: 30px;
+    width: 100%;
+    font-family: "share tech";
+}
+
+.other-samples-container1, .other-samples-container2, .other-samples-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.container-15, .container-16, .container-17, .container-18 {
+    max-width: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "share tech";
+}
+
+.other-samples1-heading, .other-samples2-heading, .other-samples3-heading, .other-samples4-heading {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.other-samples1-heading, .other-samples1-message, .other-samples2-heading, .other-samples2-message, .other-samples3-heading, .other-samples3-message, .other-samples4-heading, .other-samples4-message {
+    color: #F0F6FC;
+    margin: 0;
+    padding: 5px;
+}
+
+.other-samples1-message, .other-samples2-message, .other-samples3-message, .other-samples4-message {
+    max-width: 250px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    color: #00FFFF;
+    font-size: 17px;
+}
+
+a:hover {
+    color: #32CD32;
+}
+
+body {
+    background-color: #0D1117;
+}
